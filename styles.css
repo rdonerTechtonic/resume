@@ -1,17 +1,16 @@
 body {
    background-image: url("wes-hicks-502645-unsplash.jpg");
-   /* background-color: #cccccc; */
-   background-repeat: no-repeat;
    background-size: cover;
    margin-bottom: 30%;
-   /* color: #e2e2e2; */
    color: white;
    font-family: 'Raleway', sans-serif;
+   position: relative;
+   margin-top: 70px
 }
 
 h1, #info, .icons {
   text-align: center;
-  color:
+  color: white;
 }
 
 .center {
@@ -23,13 +22,35 @@ h1, #info, .icons {
   color: white;
 }
 
-img {
-      border-radius: 25px;
-      border: 5px solid #000;
-      width: 40%;
-      height: 40%;
+.img-fluid {
+      box-shadow: 10px 10px 5px black;
   }
 
 strong {
   font-weight: 700;
+}
+
+#left-pane {
+  background-color: gray;
+  font-family: 'Notable', sans-serif;
+  font-size: 4em;
+  text-align: center;
+}
+
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+div[data-spy="scroll"] {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 150px;
+}
+
+.section {
+    padding-top: 3rem;
+    margin-top: -3rem;
 }
